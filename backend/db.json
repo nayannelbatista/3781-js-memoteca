@@ -11,11 +11,6 @@
       "autoria": "Mestre Yoda"
     },
     {
-      "id": "5b8a",
-      "conteudo": "Na minha máquina funciona!",
-      "autoria": "Dev"
-    },
-    {
       "id": "68uy",
       "conteudo": "Esse é de laranja que parece de limão, mas tem gosto de tamarindo!",
       "autoria": "Chaves"
@@ -64,6 +59,11 @@
       "id": "4d2e",
       "conteudo": "Se eu for aí e achar, eu esfrego na sua cara!",
       "autoria": "Mãe"
+    },
+    {
+      "id": "584a",
+      "conteudo": "Na minha máquina funciona!",
+      "autoria": "Dev"
     }
   ]
 }
