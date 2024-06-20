@@ -29,3 +29,17 @@ async function manipularSubmissaoFormulario(event) {
 function manipularCancelamento() {
   ui.limparFormulario();
 }
+
+async function manipularCliqueBotaoEditar(event) {
+  if(event.target.classList.contains("botao-editar")) {
+    const id = event.target.parentElement.getAttibute("data-id")
+    try {
+      await api.buscarPensamentoPorId(id)
+      if(pensamento) {
+        ui.preencherFormulario(pensamento)
+      }
+    } catch (error) {
+      alert("Erro ao editar pensamento")
+    }
+  }
+}
